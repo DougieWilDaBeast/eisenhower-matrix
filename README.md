@@ -6,6 +6,7 @@ Served by GitHub Pages from the `main` branch at https://dougiewildabeast.github
 
 - `index.html`: the whole site (the method, a short guide, the app, questions)
 - `eisenhower-matrix-template.pdf`, `eisenhower-matrix-template-letter.pdf`: free printable matrix, A4 and US Letter
+- `blog/`: blog posts as plain HTML pages sharing `blog/blog.css`; add each new post to `blog/index.html`, `sitemap.xml` and the list on the home page
 - `img/`: app icon and screenshots
 - `sitemap.xml`: for search engines
 
