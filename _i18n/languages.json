@@ -1,0 +1,13 @@
+[
+  {"code": "en", "hreflang": "en", "og_locale": "en_US", "dir": "", "play_hl": ""},
+  {"code": "de", "hreflang": "de", "og_locale": "de_DE", "dir": "de/", "play_hl": "de"},
+  {"code": "es", "hreflang": "es", "og_locale": "es_ES", "dir": "es/", "play_hl": "es"},
+  {"code": "fr", "hreflang": "fr", "og_locale": "fr_FR", "dir": "fr/", "play_hl": "fr"},
+  {"code": "it", "hreflang": "it", "og_locale": "it_IT", "dir": "it/", "play_hl": "it"},
+  {"code": "pt", "hreflang": "pt-PT", "og_locale": "pt_PT", "dir": "pt/", "play_hl": "pt-PT"},
+  {"code": "nl", "hreflang": "nl", "og_locale": "nl_NL", "dir": "nl/", "play_hl": "nl"},
+  {"code": "pl", "hreflang": "pl", "og_locale": "pl_PL", "dir": "pl/", "play_hl": "pl"},
+  {"code": "tr", "hreflang": "tr", "og_locale": "tr_TR", "dir": "tr/", "play_hl": "tr"},
+  {"code": "ru", "hreflang": "ru", "og_locale": "ru_RU", "dir": "ru/", "play_hl": "ru"},
+  {"code": "id", "hreflang": "id", "og_locale": "id_ID", "dir": "id/", "play_hl": "id"}
+]
