@@ -23,3 +23,4 @@ a.post{display:block;text-decoration:none;color:var(--ink)}a.post b{display:bloc
 a.post span{display:block;color:var(--mute);margin:4px 0}a.post small{color:var(--mute)}
 footer{margin:56px 0 40px;color:var(--mute);font-size:15px;text-align:center}
 @media (max-width:520px){.grid{grid-template-columns:1fr}}
+figure.shot{margin:18px 0;text-align:center}figure.shot img{max-width:270px;width:100%;height:auto;border-radius:16px;border:1px solid var(--line)}figure.shot figcaption{color:var(--mute);font-size:15px;margin-top:6px}
