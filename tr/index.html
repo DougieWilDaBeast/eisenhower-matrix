@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eisenhower Matrisi: ücretsiz Android uygulaması ve yazdırılabilir şablon</title>
+<meta name="description" content="Eisenhower matrisi nedir, nasıl kullanılır, ücretsiz yazdırılabilir şablon (PDF) ve hesapsız, reklamsız, aboneliksiz, gizliliğe saygılı bir Android yapılacaklar uygulaması.">
+<link rel="canonical" href="https://willtoforge.com/eisenhower-matrix/tr/">
+<link rel="alternate" hreflang="en" href="https://willtoforge.com/eisenhower-matrix/">
+<link rel="alternate" hreflang="de" href="https://willtoforge.com/eisenhower-matrix/de/">
+<link rel="alternate" hreflang="es" href="https://willtoforge.com/eisenhower-matrix/es/">
+<link rel="alternate" hreflang="fr" href="https://willtoforge.com/eisenhower-matrix/fr/">
+<link rel="alternate" hreflang="it" href="https://willtoforge.com/eisenhower-matrix/it/">
+<link rel="alternate" hreflang="pt-PT" href="https://willtoforge.com/eisenhower-matrix/pt/">
+<link rel="alternate" hreflang="nl" href="https://willtoforge.com/eisenhower-matrix/nl/">
+<link rel="alternate" hreflang="pl" href="https://willtoforge.com/eisenhower-matrix/pl/">
+<link rel="alternate" hreflang="tr" href="https://willtoforge.com/eisenhower-matrix/tr/">
+<link rel="alternate" hreflang="ru" href="https://willtoforge.com/eisenhower-matrix/ru/">
+<link rel="alternate" hreflang="id" href="https://willtoforge.com/eisenhower-matrix/id/">
+<link rel="alternate" hreflang="x-default" href="https://willtoforge.com/eisenhower-matrix/">
+<link rel="icon" href="../img/icon-192.png">
+<meta property="og:title" content="Eisenhower Matrisi: ücretsiz Android uygulaması ve yazdırılabilir şablon">
+<meta property="og:description" content="Yapılacaklar listenizi acil ve önemliye göre sıralayın. Ücretsiz yazdırılabilir şablon ve gizliliğe saygılı bir Android uygulaması.">
+<meta property="og:image" content="https://willtoforge.com/eisenhower-matrix/img/01-matrix.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://willtoforge.com/eisenhower-matrix/tr/">
+<meta property="og:locale" content="tr_TR">
+<style>
+:root{--bg:#f8fafc;--card:#fff;--ink:#0f172a;--mute:#475569;--line:#e2e8f0;--blue:#2563eb;--do:#fee2e2;--doi:#b91c1c;--sc:#dbeafe;--sci:#1d4ed8;--de:#fef3c7;--dei:#92400e;--ba:#e5e7eb;--bai:#374151}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#131c2e;--ink:#f1f5f9;--mute:#a8b3c7;--line:#243049;--blue:#6ea0ff;--do:#3b1620;--doi:#fca5a5;--sc:#14264d;--sci:#93c5fd;--de:#3a2a0d;--dei:#fcd34d;--ba:#232b3a;--bai:#d1d5db}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Inter,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+header{padding:44px 0 28px;text-align:center}header img{width:84px;height:84px;border-radius:20px}
+h1{font-size:clamp(30px,6vw,46px);line-height:1.12;margin:18px 0 12px;letter-spacing:-.5px;text-wrap:balance}
+h2{font-size:26px;margin:52px 0 12px;letter-spacing:-.3px}h3{font-size:19px;margin:26px 0 6px}
+p.lead{font-size:20px;color:var(--mute);max-width:620px;margin:0 auto 24px;text-wrap:balance}
+a{color:var(--blue)}.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:700;padding:14px 26px;border-radius:12px;margin:6px}
+@media (prefers-color-scheme:dark){.btn{color:#0b1220}}
+.btn.ghost{background:transparent;color:var(--blue);border:2px solid var(--blue)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+.q{border-radius:16px;padding:18px}.q b{display:block;font-size:20px}.q small{display:block;font-weight:600;opacity:.85;margin-bottom:6px}
+.do{background:var(--do);color:var(--doi)}.sc{background:var(--sc);color:var(--sci)}.de{background:var(--de);color:var(--dei)}.ba{background:var(--ba);color:var(--bai)}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:6px 0 14px}.shots img{width:230px;height:auto;border-radius:18px;flex:none}
+ul{padding-left:22px}li{margin:6px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:16px 0}
+details{border-bottom:1px solid var(--line);padding:12px 0}summary{font-weight:700;cursor:pointer}
+footer{margin:60px 0 40px;color:var(--mute);font-size:15px;text-align:center}
+.langs{margin-top:14px;line-height:2}.langs a,.langs span{margin:0 6px;white-space:nowrap}.langs span{font-weight:700;color:var(--ink)}
+@media (max-width:520px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<img src="../img/icon-192.png" alt="Eisenhower Matrisi uygulama simgesi" width="84" height="84">
+<h1>Yapılacaklar listenizi acil ve önemliye göre sıralayın</h1>
+<p class="lead">Ücretsiz yazdırılabilir bir Eisenhower matrisi, kısa bir kullanım rehberi ve sıralamayı sizin yerinize yapan, gizliliğe saygılı bir Android uygulaması.</p>
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.willjkdouglas.eisenhower_matrix&referrer=utm_source%3Dwebsite%26utm_medium%3Dbadge%26utm_campaign%3Dsite-tr&amp;hl=tr">Uygulamayı Google Play'den indirin</a>
+<a class="btn ghost" href="eisenhower-matrix-template.pdf">Yazdırılabilir şablonu indirin</a>
+</header>
+
+<h2>Eisenhower matrisi nedir?</h2>
+<p>Eisenhower matrisi, her görev için iki soru sorarak sırada ne olduğuna karar vermenin bir yoludur: Acil mi? Önemli mi? Yanıtlar görevi dört kutudan birine yerleştirir.</p>
+<div class="grid">
+<div class="q do"><b>Yap</b><small>Acil ve önemli</small>Bugünün son tarihleri, gerçek sorunlar. Hemen ilgilenin.</div>
+<div class="q sc"><b>Planla</b><small>Önemli, acil değil</small>Sağlık, planlama, öğrenme, ilişkiler. Her birine bir tarih verin.</div>
+<div class="q de"><b>Devret</b><small>Acil, önemli değil</small>Bölünmeler ve başkalarının son tarihleri. Başkasına verin ya da hızlıca halledin.</div>
+<div class="q ba"><b>Sonraya</b><small>Hiçbiri</small>Daha sonra tekrar bakın ya da bırakın.</div>
+</div>
+<p>Adını, “Önemli olan nadiren acildir, acil olan da nadiren önemlidir” sözü kendisine atfedilen Dwight D. Eisenhower'dan alır. Stephen Covey daha sonra dört kutuyu <em>Etkili İnsanların 7 Alışkanlığı</em> kitabıyla yaygınlaştırdı.</p>
+
+<h2>Beş dakikada nasıl kullanılır</h2>
+<ol>
+<li><strong>Her şeyi yazın.</strong> Bir şeyi sıralamadan önce aklınızdaki her şeyi tek bir listeye dökün.</li>
+<li><strong>Önce “Önemli mi?” diye sorun.</strong> Önemli, değer verdiğiniz bir şeyi ilerletmesi demektir. Aciliyeti hissetmek daha kolaydır, bu yüzden onu ikinci sırada değerlendirin.</li>
+<li><strong>Sonra “Acil mi?” diye sorun.</strong> Acil, yakında yapılmazsa gerçek bir bedeli olması demektir.</li>
+<li><strong>Planla kutusundaki her göreve bir tarih verin.</strong> Bu kutu en önemli şeyleri tutar ve asla bağırmaz. Tarihi yoksa yapılmaz.</li>
+<li><strong>Günde bir kez gözden geçirin.</strong> Gecikmiş her görev için karar verin: bitti, bugün, başka bir gün ya da vazgeç.</li>
+</ol>
+<div class="card"><strong>Sık yapılan bir hata:</strong> neredeyse her şeyi Yap kutusuna koymak. Birkaç görevden fazlası hem acil hem önemliyse, bazıları yalnızca acildir. Son tarihi kimin koyduğunu sorun.</div>
+
+<h2>Ücretsiz yazdırılabilir şablon</h2>
+<p>Tek sayfa, dört kutu, yazacak yer. Yazdırın ya da günlük sayfa olarak masanızda tutun.</p>
+<p><a class="btn" href="eisenhower-matrix-template.pdf">PDF indir (A4)</a> <a class="btn ghost" href="eisenhower-matrix-template-letter.pdf">US Letter</a></p>
+<p>Kişisel ve sınıf içi kullanım için ücretsiz. E-posta gerekmez.</p>
+
+<h2>Android uygulaması</h2>
+<p>Eisenhower Matrisi: Görevler sıralamayı sizin yerinize yapar. Bir görevi acil, önemli ya da ikisi birden olarak işaretleyin, doğru kutuya düşsün.</p>
+<div class="shots">
+<img src="../img/01-matrix.jpg" alt="Dört bölgeli matris ekranı" width="230" height="409" loading="lazy">
+<img src="../img/02-widgets.jpg" alt="Bugünün görevlerini gösteren ana ekran widget'ları" width="230" height="409" loading="lazy">
+<img src="../img/05-daily-review.jpg" alt="Günlük gözden geçirme, her seferinde bir görev" width="230" height="409" loading="lazy">
+<img src="../img/04-bubble.jpg" alt="Başka bir uygulamanın üzerinde hızlı ekleme düğmesi" width="230" height="409" loading="lazy">
+</div>
+<h3>Ücretsiz</h3>
+<ul>
+<li>Günlük ve aylık takvim görünümüyle matris</li>
+<li>Bugünün görevleri ve hızlı ekleme için ana ekran widget'ları</li>
+<li>Görevi söyleyin, tarih ve saat kendiliğinden dolsun</li>
+<li>Alt görevler, yinelenen görevler, etiketler ve hatırlatıcılar</li>
+<li>Gecikmiş görevleri tek tek ele alan günlük gözden geçirme</li>
+<li>Verilerinizi dışa ve içe aktarma</li>
+</ul>
+<h3>Pro, tek seferlik ödeme</h3>
+<ul>
+<li>Başka herhangi bir uygulamanın içinden görev eklemek için kayan düğme</li>
+<li>Toplu ekleme: bir liste yapıştırın ve kutulara dağıtın</li>
+<li>Seçtiğiniz bir klasöre otomatik yedekleme</li>
+</ul>
+<p>Pro'yu 7 gün boyunca kart ve kayıt olmadan ücretsiz deneyebilirsiniz. Abonelik yoktur.</p>
+<h3>Tasarımı gereği gizli</h3>
+<p>Hesap yok, reklam yok, izleme yok, analiz yok. Görevleriniz, yedeklemeyi ya da paylaşmayı siz seçmedikçe telefonunuzda kalır. Okuyun: <a href="https://willtoforge.com/eisenhower_matrix_privacy_policy/">gizlilik politikası (İngilizce)</a>.</p>
+<p><a class="btn" href="https://play.google.com/store/apps/details?id=com.willjkdouglas.eisenhower_matrix&referrer=utm_source%3Dwebsite%26utm_medium%3Dbadge%26utm_campaign%3Dsite-tr&amp;hl=tr">Uygulamayı Google Play'den indirin</a></p>
+
+<h2>Blogdan</h2>
+<p>Blog yazıları İngilizcedir.</p>
+<ul>
+<li><a href="../blog/eisenhower-matrix-examples.html" hreflang="en">Dört kutuya ayrılmış 50 gerçek görev</a></li>
+<li><a href="../blog/urgent-vs-important.html" hreflang="en">Acil mi, önemli mi? Sık yanlış sınıflandırılan on görev</a></li>
+<li><a href="../blog/eisenhower-matrix-for-students.html" hreflang="en">Sınav dönemindeki öğrenciler için Eisenhower matrisi</a></li>
+</ul>
+<p><a href="../blog/" hreflang="en">Tüm yazılar</a></p>
+
+<h2>Sorular</h2>
+<details><summary>Uygulama gerçekten ücretsiz mi?</summary><p>Evet. Yöntemin tamamı, widget'lar, hatırlatıcılar, yinelenen görevler ve dışa aktarma kalıcı olarak ücretsizdir. Pro, zaman kazandıran birkaç özellik için tek seferlik, isteğe bağlı bir satın alımdır.</p></details>
+<details><summary>Hesap gerekiyor mu?</summary><p>Hayır. Kaydolacak bir şey yok ve hiçbir şey bir sunucuya gönderilmez.</p></details>
+<details><summary>iPhone sürümü var mı?</summary><p>Henüz yok. Şimdilik yalnızca Android için.</p></details>
+<details><summary>Acil ile önemli arasındaki fark nedir?</summary><p>Acil görevler yakında yapılmazsa gerçek bir bedeli olur. Önemli görevler değer verdiğiniz bir şeyi ilerletir. Pek çok görev biri olup diğeri değildir; matrisin bütün amacı da budur.</p></details>
+<details><summary>Dördüncü kutuya ne girer?</summary><p>Ne acil ne önemli olan görevler. Bazıları bu kutuya Sil ya da Ele diyor. Uygulama ona Sonraya diyor, çünkü bunların çoğu vazgeçilmeden önce ikinci bir bakışı hak eder.</p></details>
+<details><summary>Nasıl iletişime geçebilirim?</summary><p>E-posta gönderin: <a href="mailto:eisenhower.mtrx@gmail.com">eisenhower.mtrx@gmail.com</a></p></details>
+
+<footer>İrlanda'da bağımsız bir geliştirici tarafından yapıldı. Google Play, Google LLC'nin ticari markasıdır.<br><a href="../blog/" hreflang="en">Blog</a> · <a href="https://willtoforge.com/eisenhower_matrix_privacy_policy/">Gizlilik</a> · <a href="mailto:eisenhower.mtrx@gmail.com">İletişim</a>
+<nav class="langs" aria-label="Dil"><a href="../" hreflang="en" lang="en">English</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt/" hreflang="pt-PT" lang="pt-PT">Português</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <span lang="tr">Türkçe</span> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></nav></footer>
+</div>
+</body>
+</html>

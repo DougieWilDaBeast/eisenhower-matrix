@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Macierz Eisenhowera: darmowa aplikacja na Androida i szablon do druku</title>
+<meta name="description" content="Czym jest macierz Eisenhowera, jak z niej korzystać, darmowy szablon do druku (PDF) i prywatna aplikacja z listą zadań na Androida, bez konta, bez reklam i bez subskrypcji.">
+<link rel="canonical" href="https://willtoforge.com/eisenhower-matrix/pl/">
+<link rel="alternate" hreflang="en" href="https://willtoforge.com/eisenhower-matrix/">
+<link rel="alternate" hreflang="de" href="https://willtoforge.com/eisenhower-matrix/de/">
+<link rel="alternate" hreflang="es" href="https://willtoforge.com/eisenhower-matrix/es/">
+<link rel="alternate" hreflang="fr" href="https://willtoforge.com/eisenhower-matrix/fr/">
+<link rel="alternate" hreflang="it" href="https://willtoforge.com/eisenhower-matrix/it/">
+<link rel="alternate" hreflang="pt-PT" href="https://willtoforge.com/eisenhower-matrix/pt/">
+<link rel="alternate" hreflang="nl" href="https://willtoforge.com/eisenhower-matrix/nl/">
+<link rel="alternate" hreflang="pl" href="https://willtoforge.com/eisenhower-matrix/pl/">
+<link rel="alternate" hreflang="tr" href="https://willtoforge.com/eisenhower-matrix/tr/">
+<link rel="alternate" hreflang="ru" href="https://willtoforge.com/eisenhower-matrix/ru/">
+<link rel="alternate" hreflang="id" href="https://willtoforge.com/eisenhower-matrix/id/">
+<link rel="alternate" hreflang="x-default" href="https://willtoforge.com/eisenhower-matrix/">
+<link rel="icon" href="../img/icon-192.png">
+<meta property="og:title" content="Macierz Eisenhowera: darmowa aplikacja na Androida i szablon do druku">
+<meta property="og:description" content="Uporządkuj listę zadań według pilności i ważności. Darmowy szablon do druku i prywatna aplikacja na Androida.">
+<meta property="og:image" content="https://willtoforge.com/eisenhower-matrix/img/01-matrix.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://willtoforge.com/eisenhower-matrix/pl/">
+<meta property="og:locale" content="pl_PL">
+<style>
+:root{--bg:#f8fafc;--card:#fff;--ink:#0f172a;--mute:#475569;--line:#e2e8f0;--blue:#2563eb;--do:#fee2e2;--doi:#b91c1c;--sc:#dbeafe;--sci:#1d4ed8;--de:#fef3c7;--dei:#92400e;--ba:#e5e7eb;--bai:#374151}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#131c2e;--ink:#f1f5f9;--mute:#a8b3c7;--line:#243049;--blue:#6ea0ff;--do:#3b1620;--doi:#fca5a5;--sc:#14264d;--sci:#93c5fd;--de:#3a2a0d;--dei:#fcd34d;--ba:#232b3a;--bai:#d1d5db}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Inter,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+header{padding:44px 0 28px;text-align:center}header img{width:84px;height:84px;border-radius:20px}
+h1{font-size:clamp(30px,6vw,46px);line-height:1.12;margin:18px 0 12px;letter-spacing:-.5px;text-wrap:balance}
+h2{font-size:26px;margin:52px 0 12px;letter-spacing:-.3px}h3{font-size:19px;margin:26px 0 6px}
+p.lead{font-size:20px;color:var(--mute);max-width:620px;margin:0 auto 24px;text-wrap:balance}
+a{color:var(--blue)}.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:700;padding:14px 26px;border-radius:12px;margin:6px}
+@media (prefers-color-scheme:dark){.btn{color:#0b1220}}
+.btn.ghost{background:transparent;color:var(--blue);border:2px solid var(--blue)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+.q{border-radius:16px;padding:18px}.q b{display:block;font-size:20px}.q small{display:block;font-weight:600;opacity:.85;margin-bottom:6px}
+.do{background:var(--do);color:var(--doi)}.sc{background:var(--sc);color:var(--sci)}.de{background:var(--de);color:var(--dei)}.ba{background:var(--ba);color:var(--bai)}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:6px 0 14px}.shots img{width:230px;height:auto;border-radius:18px;flex:none}
+ul{padding-left:22px}li{margin:6px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:16px 0}
+details{border-bottom:1px solid var(--line);padding:12px 0}summary{font-weight:700;cursor:pointer}
+footer{margin:60px 0 40px;color:var(--mute);font-size:15px;text-align:center}
+.langs{margin-top:14px;line-height:2}.langs a,.langs span{margin:0 6px;white-space:nowrap}.langs span{font-weight:700;color:var(--ink)}
+@media (max-width:520px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<img src="../img/icon-192.png" alt="Ikona aplikacji Macierz Eisenhowera" width="84" height="84">
+<h1>Uporządkuj listę zadań według pilności i ważności</h1>
+<p class="lead">Darmowa macierz Eisenhowera do druku, krótki poradnik i prywatna aplikacja na Androida, która posortuje zadania za ciebie.</p>
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.willjkdouglas.eisenhower_matrix&referrer=utm_source%3Dwebsite%26utm_medium%3Dbadge%26utm_campaign%3Dsite-pl&amp;hl=pl">Pobierz aplikację z Google Play</a>
+<a class="btn ghost" href="eisenhower-matrix-template.pdf">Pobierz szablon do druku</a>
+</header>
+
+<h2>Czym jest macierz Eisenhowera?</h2>
+<p>Macierz Eisenhowera pomaga zdecydować, co zrobić najpierw. O każde zadanie pytasz dwa razy: czy jest pilne? Czy jest ważne? Odpowiedzi umieszczają zadanie w jednym z czterech pól.</p>
+<div class="grid">
+<div class="q do"><b>Zrób</b><small>Pilne i ważne</small>Dzisiejsze terminy, prawdziwe problemy. Zajmij się nimi teraz.</div>
+<div class="q sc"><b>Zaplanuj</b><small>Ważne, niepilne</small>Zdrowie, planowanie, nauka, relacje. Każdemu nadaj datę.</div>
+<div class="q de"><b>Deleguj</b><small>Pilne, nieważne</small>Przerywniki i cudze terminy. Przekaż komuś albo zrób szybko.</div>
+<div class="q ba"><b>Na później</b><small>Ani to, ani to</small>Wróć do tego później albo odpuść.</div>
+</div>
+<p>Nazwa pochodzi od Dwighta D. Eisenhowera, któremu przypisuje się zdanie „To, co ważne, rzadko jest pilne, a to, co pilne, rzadko jest ważne”. Później Stephen Covey spopularyzował cztery pola w książce <em>7 nawyków skutecznego działania</em>.</p>
+
+<h2>Jak z niej korzystać w pięć minut</h2>
+<ol>
+<li><strong>Zapisz wszystko.</strong> Przelej wszystko z głowy na jedną listę, zanim zaczniesz cokolwiek sortować.</li>
+<li><strong>Najpierw zapytaj: „Czy to ważne?”</strong> Ważne znaczy, że przybliża cię do czegoś, na czym ci zależy. Pilność łatwiej poczuć, więc oceniaj ją w drugiej kolejności.</li>
+<li><strong>Potem zapytaj: „Czy to pilne?”</strong> Pilne znaczy, że zwłoka będzie naprawdę kosztować.</li>
+<li><strong>Każdemu zadaniu w „Zaplanuj” nadaj datę.</strong> To pole kryje to, co najważniejsze, i nigdy nie krzyczy. Bez daty nic się nie wydarzy.</li>
+<li><strong>Raz dziennie zrób przegląd.</strong> Przy każdym zaległym zadaniu zdecyduj: zrobione, dziś, innego dnia albo usuń.</li>
+</ol>
+<div class="card"><strong>Częsty błąd:</strong> wrzucanie prawie wszystkiego do „Zrób”. Jeśli więcej niż kilka zadań jest jednocześnie pilnych i ważnych, część z nich jest tylko pilna. Zapytaj, kto wyznaczył termin.</div>
+
+<h2>Darmowy szablon do druku</h2>
+<p>Jedna strona, cztery pola i miejsce na notatki. Wydrukuj go albo trzymaj na biurku jako kartkę na dziś.</p>
+<p><a class="btn" href="eisenhower-matrix-template.pdf">Pobierz PDF (A4)</a> <a class="btn ghost" href="eisenhower-matrix-template-letter.pdf">Format US Letter</a></p>
+<p>Za darmo do użytku osobistego i w szkole. Bez podawania e-maila.</p>
+
+<h2>Aplikacja na Androida</h2>
+<p>Macierz Eisenhowera: Zadania sortuje za ciebie. Oznacz zadanie jako pilne, ważne albo jedno i drugie, a trafi do właściwego pola.</p>
+<div class="shots">
+<img src="../img/01-matrix.jpg" alt="Ekran macierzy z czterema ćwiartkami" width="230" height="409" loading="lazy">
+<img src="../img/02-widgets.jpg" alt="Widżety na ekranie głównym z dzisiejszymi zadaniami" width="230" height="409" loading="lazy">
+<img src="../img/05-daily-review.jpg" alt="Przegląd dnia, jedno zadanie naraz" width="230" height="409" loading="lazy">
+<img src="../img/04-bubble.jpg" alt="Dymek szybkiego dodawania nad inną aplikacją" width="230" height="409" loading="lazy">
+</div>
+<h3>Za darmo</h3>
+<ul>
+<li>Macierz z dziennym i miesięcznym widokiem kalendarza</li>
+<li>Widżety na ekranie głównym z dzisiejszymi zadaniami i szybkim dodawaniem</li>
+<li>Powiedz zadanie na głos, a data i godzina uzupełnią się same</li>
+<li>Podzadania, zadania cykliczne, etykiety i przypomnienia</li>
+<li>Przegląd dnia, który przeprowadzi cię przez zaległe zadania jedno po drugim</li>
+<li>Eksport i import danych</li>
+</ul>
+<h3>Pro, jedna płatność</h3>
+<ul>
+<li>Pływający dymek do dodawania zadań z dowolnej innej aplikacji</li>
+<li>Dodawanie wielu zadań: wklej listę i rozdziel ją między pola</li>
+<li>Automatyczne kopie zapasowe w wybranym folderze</li>
+</ul>
+<p>Pro możesz testować za darmo przez 7 dni, bez karty i bez rejestracji. Nie ma subskrypcji.</p>
+<h3>Prywatność od podstaw</h3>
+<p>Bez konta, bez reklam, bez śledzenia i bez analityki. Twoje zadania zostają na telefonie, chyba że zdecydujesz się zrobić kopię albo je udostępnić. Przeczytaj <a href="https://willtoforge.com/eisenhower_matrix_privacy_policy/">politykę prywatności (po angielsku)</a>.</p>
+<p><a class="btn" href="https://play.google.com/store/apps/details?id=com.willjkdouglas.eisenhower_matrix&referrer=utm_source%3Dwebsite%26utm_medium%3Dbadge%26utm_campaign%3Dsite-pl&amp;hl=pl">Pobierz aplikację z Google Play</a></p>
+
+<h2>Z bloga</h2>
+<p>Artykuły na blogu są po angielsku.</p>
+<ul>
+<li><a href="../blog/eisenhower-matrix-examples.html" hreflang="en">50 prawdziwych zadań rozdzielonych na cztery pola</a></li>
+<li><a href="../blog/urgent-vs-important.html" hreflang="en">Pilne czy ważne? Dziesięć zadań, które często mylimy</a></li>
+<li><a href="../blog/eisenhower-matrix-for-students.html" hreflang="en">Macierz Eisenhowera dla studentów w czasie sesji</a></li>
+</ul>
+<p><a href="../blog/" hreflang="en">Wszystkie artykuły</a></p>
+
+<h2>Pytania</h2>
+<details><summary>Czy aplikacja naprawdę jest darmowa?</summary><p>Tak. Cała metoda, widżety, przypomnienia, zadania cykliczne i eksport są darmowe na zawsze. Pro to jednorazowy, opcjonalny zakup kilku funkcji oszczędzających czas.</p></details>
+<details><summary>Czy potrzebuję konta?</summary><p>Nie. Nie trzeba się nigdzie rejestrować i nic nie jest wysyłane na serwer.</p></details>
+<details><summary>Czy jest wersja na iPhone'a?</summary><p>Jeszcze nie. Na razie tylko na Androida.</p></details>
+<details><summary>Czym różni się pilne od ważnego?</summary><p>Zwłoka z pilnym zadaniem naprawdę kosztuje. Ważne zadanie przybliża cię do czegoś, na czym ci zależy. Wiele zadań jest jednym bez drugiego i właśnie o to chodzi w macierzy.</p></details>
+<details><summary>Co trafia do czwartego pola?</summary><p>Zadania ani pilne, ani ważne. Niektórzy nazywają to pole „Usuń” albo „Wyeliminuj”. Aplikacja nazywa je „Na później”, bo wiele z nich warto jeszcze raz przejrzeć, zanim się z nich zrezygnuje.</p></details>
+<details><summary>Jak się skontaktować?</summary><p>Napisz na adres <a href="mailto:eisenhower.mtrx@gmail.com">eisenhower.mtrx@gmail.com</a>.</p></details>
+
+<footer>Stworzona w Irlandii przez niezależnego programistę. Google Play jest znakiem towarowym Google LLC.<br><a href="../blog/" hreflang="en">Blog</a> · <a href="https://willtoforge.com/eisenhower_matrix_privacy_policy/">Prywatność</a> · <a href="mailto:eisenhower.mtrx@gmail.com">Kontakt</a>
+<nav class="langs" aria-label="Język"><a href="../" hreflang="en" lang="en">English</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt/" hreflang="pt-PT" lang="pt-PT">Português</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <span lang="pl">Polski</span> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></nav></footer>
+</div>
+</body>
+</html>
