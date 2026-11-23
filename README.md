@@ -9,6 +9,7 @@ Served by GitHub Pages from the `main` branch at https://willtoforge.com/eisenho
 - `_i18n/`: source for all the home pages. `template.html` is the layout, `strings/<lang>.json` the text, `languages.json` the list of languages
 - `eisenhower-matrix-template.pdf`, `eisenhower-matrix-template-letter.pdf`: free printable matrix, A4 and US Letter
 - `blog/`: blog posts as plain HTML pages sharing `blog/blog.css`; add each new post to `blog/index.html`, `sitemap.xml` and the list on the home page
+- `backup/`: Google Drive backup guide (`backup/index.html` English, `backup/zh-TW/` Traditional Chinese), plain HTML using `blog/blog.css`; kept in the sitemap like blog posts
 - `img/`: app icon and screenshots
 - `sitemap.xml`: for search engines (home page entries are generated with their language alternates; blog entries are kept)
 
