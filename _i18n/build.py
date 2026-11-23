@@ -129,7 +129,7 @@ def build_pdfs(targets):
 
 def sitemap():
     old = open(os.path.join(ROOT, 'sitemap.xml'), encoding='utf-8').read()
-    keep = [u for u in re.findall(r'  <url><loc>[^<]+</loc>.*?</url>', old) if '/blog/' in u]
+    keep = [u for u in re.findall(r'  <url><loc>[^<]+</loc>.*?</url>', old) if '/blog/' in u or '/backup/' in u]
     alts = ''.join(f'<xhtml:link rel="alternate" hreflang="{l["hreflang"]}" href="{BASE}{l["dir"]}"/>' for l in LANGS)
     alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{BASE}"/>'
     homes = [f'  <url><loc>{BASE}{l["dir"]}</loc>{alts}</url>' for l in LANGS]

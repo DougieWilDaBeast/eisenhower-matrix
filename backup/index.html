@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Back up your tasks to Google Drive</title>
+<meta name="description" content="How to keep a copy of your Eisenhower Matrix tasks and notes in your own Google Drive, by hand or automatically, and where your data lives. No account with us, and we never see your data.">
+<link rel="canonical" href="https://willtoforge.com/eisenhower-matrix/backup/">
+<link rel="alternate" hreflang="en" href="https://willtoforge.com/eisenhower-matrix/backup/">
+<link rel="alternate" hreflang="zh-TW" href="https://willtoforge.com/eisenhower-matrix/backup/zh-TW/">
+<link rel="alternate" hreflang="x-default" href="https://willtoforge.com/eisenhower-matrix/backup/">
+<link rel="icon" href="../img/icon-192.png">
+<meta property="og:title" content="Back up your tasks to Google Drive">
+<meta property="og:description" content="Keep a copy of your tasks and notes in your own Google Drive. We never see your data.">
+<meta property="og:image" content="https://willtoforge.com/eisenhower-matrix/img/01-matrix.jpg">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="../blog/blog.css">
+</head>
+<body>
+<div class="wrap">
+<nav><a href="../"><img src="../img/icon-192.png" alt="" width="28" height="28">Eisenhower Matrix</a><span><a href="zh-TW/" hreflang="zh-TW" lang="zh-TW">繁體中文</a> · <a href="../blog/">Blog</a></span></nav>
+<article>
+<h1>Back up your tasks to Google Drive</h1>
+<p class="meta">Guide · 23 November 2026</p>
+
+<p class="lead">The app has no account and no server of ours. Your tasks never leave your phone unless you send them somewhere. This guide shows how to keep a copy in your own Google Drive, where only you can see it.</p>
+
+<h2>Where your data lives</h2>
+<ul>
+<li><strong>On your phone.</strong> Tasks, labels, notes and settings are kept in the app's own storage on your phone.</li>
+<li><strong>In files you save.</strong> An export, or a Pro automatic backup, is a normal <code>.json</code> file in a folder you pick.</li>
+<li><strong>In your Google Drive</strong>, once you upload or sync one of those files there. It sits in your Drive like any other file you own.</li>
+</ul>
+<p>We (the developer) never see any of it. Nothing is sent to us, and we can't open your Drive.</p>
+
+<div class="card"><b>Why not straight into Drive from the app?</b><p>Android's folder picker doesn't offer Google Drive folders, and writing to Drive directly would mean signing in to Google inside the app. The app doesn't ask for any sign-in, so you use the Drive app (or a sync app) for the last step instead. You can still pick a backup file from Drive when you restore.</p></div>
+
+<h2>Option 1: by hand (free)</h2>
+<ol>
+<li>In the app, open <strong>Settings → Data Management → Export All Task Data</strong> and tap <strong>Save File</strong>.</li>
+<li>Pick a folder on your phone, such as <strong>Download</strong>, and save. The file is called <code>eisenhower-matrix-export-</code> plus the date.</li>
+<li>Open the <strong>Google Drive</strong> app, tap <strong>+ New → Upload</strong>, and choose that file. Put it in a folder of your own, for example "Task backups".</li>
+</ol>
+<p>Do this whenever you want a fresh copy, for example once a week.</p>
+
+<h2>Option 2: automatic (Pro)</h2>
+<p>Pro saves a backup for you once a day when something has changed, and keeps the last 14 days. Every Pro feature is free for 7 days when you first install the app.</p>
+<ol>
+<li>In the app, open <strong>Settings → Local Backup</strong>, tap <strong>Choose Folder</strong>, and create or pick a folder, for example <strong>Documents/Eisenhower backups</strong>.</li>
+<li>Install a folder-sync app that copies a phone folder to Google Drive, for example <em>Autosync for Google Drive</em> or <em>FolderSync</em> from Google Play. These are made by other developers, not by us.</li>
+<li>In the sync app, sign in to your Google account and link the phone folder from step 1 to a folder in your Drive. Choose one-way upload (phone to Drive).</li>
+</ol>
+<p>From then on, each day's backup file (<code>backup_</code> plus the date) lands in your Drive on its own. The sync app works with your Google account directly; we still see nothing. It's worth reading the sync app's privacy policy, since it has access to that Drive folder.</p>
+
+<h2>Getting your tasks back</h2>
+<ol>
+<li>In the app, open <strong>Settings → Data Management → Import Tasks from File</strong>.</li>
+<li>In the file picker, open the menu and choose <strong>Drive</strong>, then tap your backup file. Both export files and daily backup files work.</li>
+<li>Choose whether to add the tasks to the ones on your phone or replace them.</li>
+</ol>
+<p>Moving to a new phone? Install the app, then import your latest file from Drive the same way.</p>
+
+<h2>Other ways</h2>
+<ul>
+<li><strong>Android's own backup.</strong> If backup is turned on in your phone's settings (Settings → Google → Backup), Android copies the app's data to your Google account and puts it back when you set up a new phone. You can't open that copy as a file, and it isn't a Drive folder you can browse, so a file backup as above is still a good idea.</li>
+<li><strong>Your own server (Pro, for technical users).</strong> Settings → Backup &amp; Sync has an <strong>API Endpoint</strong> field. It sends backups to a web address that you run yourself, such as a small server on your own computer, with an optional key. It can't point straight at Google Drive. The details are in the app under Help → Backup &amp; Sync.</li>
+</ul>
+
+<p>Questions? Email <a href="mailto:eisenhower.mtrx@gmail.com">eisenhower.mtrx@gmail.com</a>.</p>
+
+<p><a class="btn" href="https://play.google.com/store/apps/details?id=com.willjkdouglas.eisenhower_matrix&referrer=utm_source%3Dsite%26utm_medium%3Dguide%26utm_campaign%3Dbackup">Get the app on Google Play</a></p>
+</article>
+<footer>Made in Ireland by a solo developer. Google Drive and Google Play are trademarks of Google LLC.<br><a href="../">Home</a> · <a href="../blog/">Blog</a> · <a href="https://willtoforge.com/eisenhower_matrix_privacy_policy/">Privacy policy</a> · <a href="mailto:eisenhower.mtrx@gmail.com">Contact</a></footer>
+</div>
+</body>
+</html>
